@@ -7,4 +7,4 @@ before_install:
   - sudo apt-get install -y libyajl1
 install:
   - pip install .
-script: python tests.py
+script: python -m tests
